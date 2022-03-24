@@ -1,0 +1,197 @@
+// GLOBAL
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+//@at-root
+.navbar {
+  .container-fluid {
+    .navbar-brand {
+      font-size: 1.3rem;
+      font-weight: 700;
+      .brand-img {
+        width: 30%;
+      }
+    }
+    .navbar-collapse {
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            //color: #266dd3;
+
+            font-weight: 900;
+            transition: all 0.1s ease-in;
+            &:hover {
+              color: #266dd3;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// STICKY SOCIALS
+// .sticky-socials {
+//   position: fixed;
+//   height: 80vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   transform: translate(-260px, 0);
+//   a {
+//     color: #fff;
+//     background: rgba(0, 0, 0, 0.4);
+//     font-size: 20px;
+//     font-weight: 600;
+//     text-decoration: none;
+//     display: block;
+//     margin: 3px;
+//     padding: 10px;
+//     width: 300px;
+//     text-align: right;
+//     border-radius: 30px;
+//     transition: 1s;
+//     transition-property: transform;
+//     &:hover {
+//       transform: translate(140px, 0);
+//     }
+//     .sticky-img {
+//       width: 10%;
+//       margin-left: 10px;
+//       font-size: 30px;
+//     }
+//   }
+// }
+
+// HEADER
+.header {
+  background-color: #f3cecf;
+  .container {
+    .row {
+      .header-first-column {
+        .profile-img {
+          border-radius: 50%;
+        }
+      }
+      .header-second-column {
+        color: #fff;
+        .second-column-div {
+          border-radius: 30px;
+          h5 {
+            color: #000;
+            font-weight: 350;
+          }
+          .btn {
+            color: #fff;
+          }
+          p {
+            color: #000;
+          }
+        }
+        .hello-text {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+// WORK SECTION
+#work-section {
+  min-height: 50vh;
+  .container {
+    .row {
+      .col {
+        .card {
+          position: relative;
+          background: rgba(255, 255, 255, 0.05);
+          margin: 20px;
+          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+          border-radius: 15px;
+          backdrop-filter: blur(10px);
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            transform: scale(1.1);
+          }
+          .card-img-top {
+            border-radius: 15px;
+            transition: all 0.5s ease;
+            &:hover {
+              transform: scale(0.8);
+            }
+          }
+          .card-title {
+            font-weight: bolder;
+          }
+          .card-text {
+            .quote-by {
+              font-weight: 800;
+            }
+          }
+          .sci {
+            display: flex;
+            li {
+              list-style: none;
+              margin: 0 10px;
+              transform: translateY(10px);
+              transition: 0.5s;
+              //opacity: 0.5;
+              &:hover {
+                transform: translateY(0px);
+                opacity: 1;
+              }
+              a {
+                color: #00093c;
+                .fb:hover {
+                  color: #266dd3;
+                }
+                .ins:hover {
+                  color: #ff7083;
+                }
+                .twi:hover {
+                  color: #47f3ff;
+                }
+                .lin:hover {
+                  color: #345995;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// FOOTER
+footer {
+  //padding-top: 2rem;
+  color: #fff;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+  .row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    .col {
+      flex-basis: 25%;
+      padding: 10px;
+      figure {
+        .brand-logo-1 {
+          width: 80%;
+        }
+        .brand-logo-2 {
+          width: 120%;
+        }
+      }
+    }
+  }
+}

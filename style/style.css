@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar .container-fluid .navbar-brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.navbar .container-fluid .navbar-brand .brand-img {
+  width: 30%;
+}
+
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-weight: 900;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #266dd3;
+}
+
+.header {
+  background-color: #f3cecf;
+}
+
+.header .container .row .header-first-column .profile-img {
+  border-radius: 50%;
+}
+
+.header .container .row .header-second-column {
+  color: #fff;
+}
+
+.header .container .row .header-second-column .second-column-div {
+  border-radius: 30px;
+}
+
+.header .container .row .header-second-column .second-column-div h5 {
+  color: #000;
+  font-weight: 350;
+}
+
+.header .container .row .header-second-column .second-column-div .btn {
+  color: #fff;
+}
+
+.header .container .row .header-second-column .second-column-div p {
+  color: #000;
+}
+
+.header .container .row .header-second-column .hello-text {
+  font-weight: bold;
+}
+
+#work-section {
+  min-height: 50vh;
+}
+
+#work-section .container .row .col .card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#work-section .container .row .col .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#work-section .container .row .col .card .card-img-top {
+  border-radius: 15px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#work-section .container .row .col .card .card-img-top:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+#work-section .container .row .col .card .card-title {
+  font-weight: bolder;
+}
+
+#work-section .container .row .col .card .card-text .quote-by {
+  font-weight: 800;
+}
+
+#work-section .container .row .col .card .sci {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#work-section .container .row .col .card .sci li {
+  list-style: none;
+  margin: 0 10px;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#work-section .container .row .col .card .sci li:hover {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+#work-section .container .row .col .card .sci li a {
+  color: #00093c;
+}
+
+#work-section .container .row .col .card .sci li a .fb:hover {
+  color: #266dd3;
+}
+
+#work-section .container .row .col .card .sci li a .ins:hover {
+  color: #ff7083;
+}
+
+#work-section .container .row .col .card .sci li a .twi:hover {
+  color: #47f3ff;
+}
+
+#work-section .container .row .col .card .sci li a .lin:hover {
+  color: #345995;
+}
+
+footer {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#00093c), to(#2d0b00));
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+footer .row {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .row .col {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  padding: 10px;
+}
+
+footer .row .col figure .brand-logo-1 {
+  width: 80%;
+}
+
+footer .row .col figure .brand-logo-2 {
+  width: 120%;
+}
